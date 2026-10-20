@@ -1,0 +1,19 @@
+[project]
+name = "gekkolinux-exo"
+version = "0.1.0"
+description = "Source based package manager for Gekko Linux, in Python3"
+authors = [
+    {name = "Kokonico",email = "kokonico@duck.com"},
+    {name = "BooBucket",email = "zeroivan04@gmail.com"}
+]
+license = "LICENSE"
+requires-python = ">=3.14"
+dependencies = [
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
